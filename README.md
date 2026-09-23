@@ -1,9 +1,9 @@
 # Real big database
 
-A large, realistic e-commerce dataset for practicing SQL on real volume:
+A large, e-commerce dataset for practicing SQL on real volume:
 query optimization, indexing, `EXPLAIN`/`EXPLAIN ANALYZE`, and general
 "working with millions of rows" skills. Ships as ready-to-import SQL dumps
-for **both PostgreSQL and MySQL** — pick whichever you use.
+for **PostgreSQL and MySQL**
 
 ## What's inside
 
@@ -110,6 +110,3 @@ schema/mysql/indexes_solution.sql       reference indexes to add as an exercise
 generator/generate.py                   the data generator
 dist/                                   build output (git-ignored)
 ```
-
-All data is synthetically generated — no real customers, emails, or
-orders.
